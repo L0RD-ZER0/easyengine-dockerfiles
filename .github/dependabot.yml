@@ -10,31 +10,31 @@ updates:
     schedule:
       interval: "weekly"
 
-- package-ecosystem: "docker"
+  - package-ecosystem: "docker"
     directory: "/php/7.4"
     allow: ["7.4.*-fpm"]
     schedule:
       interval: "weekly"
 
-- package-ecosystem: "docker"
+  - package-ecosystem: "docker"
     directory: "/php/8.0"
     allow: ["8.0.*-fpm"]
     schedule:
       interval: "weekly"
 
-- package-ecosystem: "docker"
+  - package-ecosystem: "docker"
     directory: "/php/8.1"
     allow: ["8.1.*-fpm"]
     schedule:
       interval: "weekly"
 
-- package-ecosystem: "docker"
+  - package-ecosystem: "docker"
     directory: "/php/8.2"
     allow: ["8.2.*-fpm"]
     schedule:
       interval: "weekly"
 
-- package-ecosystem: "docker"
+  - package-ecosystem: "docker"
     directory: "/php/8.3"
     allow: ["8.3.*-fpm"]
     schedule:
