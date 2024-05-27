@@ -33,10 +33,10 @@ updates:
 
   - package-ecosystem: "docker"
     directory: "/php/8.2"
-    allow: 
-      - dependency-name: "php"
-        # versions: ["8.2.*-fpm"]
-        update-types: ["version-update:semver-major", "version-update:semver-minor"]
+    ignore: 
+      - # dependency-name: "php"
+        versions: [" ~> 8.2.*-fpm"]
+        # update-types: ["version-update:semver-major", "version-update:semver-minor"]
     schedule:
       interval: "weekly"
 
